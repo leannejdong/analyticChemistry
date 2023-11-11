@@ -110,7 +110,7 @@ library(chemometrics)
 pca_result <- pca(your_data[, c("Variable1", "Variable2", "Variable3")])
 ```
 
-7. pectroscopy Analysis:
+7. Spectroscopy Analysis:
 ```r
 library(hyperSpec)
 # Create a hyperSpec object
