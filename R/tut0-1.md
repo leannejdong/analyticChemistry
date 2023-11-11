@@ -2,8 +2,8 @@
 
 ## Install R and R studio
 
-
-We will write our programs on a online platform (an IDE) called Rstudio Cloud, which makes it platform independent - we access the program the same way on a PC, Mac, or Linux. The Rstudio Cloud environment is divided into 4 main sections, with the most important elements listed below.
+We will write our programs on RStudio. There is also a online platform (an IDE) called Rstudio Cloud, which makes it platform independent - we access the program the same way on a PC, Mac, or Linux. The Rstudio Cloud environment is divided into 4 main sections, with the most important elements listed below. However since we don't always have internet access it is desirable to have R and RStudio in your local machine.
+Brief note without screenshot.
 
 Top left: Script - where you write R code
 
@@ -218,6 +218,12 @@ mean(MyData$Column1)
 median(MyData$Column2)
 sd(MyData$Column1)
 ```
+
+## Reference
+
+[R for data science](https://r4ds.hadley.nz/)
+
+[RPubs](https://rpubs.com/)
 
 
 
