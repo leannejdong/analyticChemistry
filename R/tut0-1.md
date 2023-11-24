@@ -2,13 +2,17 @@
 
 ## Install R and R studio
 
-
-We will write our programs on a online platform (an IDE) called Rstudio Cloud, which makes it platform independent - we access the program the same way on a PC, Mac, or Linux. The Rstudio Cloud environment is divided into 4 main sections, with the most important elements listed below.
+We will write our programs on RStudio. There is also a online platform (an IDE) called Rstudio Cloud, which makes it platform independent - we access the program the same way on a PC, Mac, or Linux. The Rstudio Cloud environment is divided into 4 main sections, with the most important elements listed below. However since we don't always have internet access it is desirable to have R and RStudio in your local machine.
+Brief note without screenshot.
 
 Top left: Script - where you write R code
+
 Bottom left: Console - show output
+
 Top right: Environment - we will mostly ignore this
+
 Bottom right: show Plots, help, packages
+
 A package is set of programs that R can call, such as a statistical package. There are base packages that come with R, and there are many that have to be added. Default Packages are listed in the bttom right pane. To add a package use install and type name of packages.
 
 Some important packages used here:
@@ -20,7 +24,7 @@ File ——> Newfile —–> Rscript
 
 \& start typing!
 
-To run a program, highlight the code and select “run”,
+To run a program, highlight the code and select `run`,
 
 When you run a script program, results and error messages will appear on the console, and plots appear on the plot area.
 
@@ -106,7 +110,7 @@ library(chemometrics)
 pca_result <- pca(your_data[, c("Variable1", "Variable2", "Variable3")])
 ```
 
-7. pectroscopy Analysis:
+7. Spectroscopy Analysis:
 ```r
 library(hyperSpec)
 # Create a hyperSpec object
@@ -214,6 +218,12 @@ mean(MyData$Column1)
 median(MyData$Column2)
 sd(MyData$Column1)
 ```
+
+## Reference
+
+[R for data science](https://r4ds.hadley.nz/)
+
+[RPubs](https://rpubs.com/)
 
 
 
