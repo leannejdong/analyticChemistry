@@ -41,7 +41,7 @@ You will also be asked for a location to save the GitHub SSH keys on Windows. Ag
 
 The Windows GitHub SSH keys live in the .ssh folder under the current user’s home directory. The following directory listing under the .ssh folder of a user named hugh shows the two files created by the ssh-keygen tool:
 
-```shell
+```
 PS C:\Users\hugh\.ssh> dir
 LastWriteTime      Name
 -------------      ----
