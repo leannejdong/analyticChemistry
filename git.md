@@ -34,6 +34,25 @@ SSH keys are essential for secure communication with remote repositories.
 ```
 # Generate SSH key
 ssh-keygen -t rsa -b 4096 -C "your.email@example.com"
+
+You will be asked for an optional passphrase. It’s permissible to click enter and leave this blank.
+
+You will also be asked for a location to save the GitHub SSH keys on Windows. Again, just click enter to accept the default location, which is the .ssh folder under the user’s home directory.
+
+The Windows GitHub SSH keys live in the .ssh folder under the current user’s home directory. The following directory listing under the .ssh folder of a user named hugh shows the two files created by the ssh-keygen tool:
+
+```shell
+PS C:\Users\hugh\.ssh> dir
+LastWriteTime      Name
+-------------      ----
+1/1/2022           id_rsa
+1/1/2022           id_rsa.pub
+```
+
+Open the ssh public key `id_rsa.pub` in a text editor such as Notepad++, simply ``select all" and copy the key.
+Copy the public GitHub SSH key and store this value as a registered SSH key in your GitHub account.
+
+With the SSH key copied, log into GitHub, navigate to your account settings, and paste the public key as a new SSH key.
 ```
 You will be asked for an optional passphrase. It’s permissible to click enter and leave this blank.
 
