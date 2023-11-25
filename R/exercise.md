@@ -1,4 +1,4 @@
-Goal: produce a program that calculates pH from data measurements in a csv file
+## Goal: produce a program that calculates pH from data measurements in a csv file
 
 1. Read the CSV file into a data frame
 Assume the CSV file has columns named `H+`, `OH-`, and other relevant data
@@ -43,7 +43,7 @@ Hint: pH = -log10([H+])
   - Check for invalid data (e.g., negative concentrations) and handle them appropriately
   - Display a meaningful error message when invalid data is encountered
   
-  -Hint: Use if statements for validation
+  - Hint: Use if statements for validation
   
 ```r
 
